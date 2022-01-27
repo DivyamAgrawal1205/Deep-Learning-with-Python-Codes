@@ -1,5 +1,5 @@
 '''
-
+-----------------------------------------------------------------------------------------------------------------------
 1.1 AI, ML & DL
 -----------------------------------------------------------------------------------------------------------------------
 
@@ -43,7 +43,32 @@
 
     Other apt names for Deep Learning can be "Layered Representations Learning" or "Hierarchical Representations
     Learning".
+
     Deep networks can be thought of as a multistage information - distillation process where information goes through
     successive filters and comes out increasingly useful.
+
+    Transformations implemented by a layer is parameterised by its weights(weights sometimes called parameters of layer)
+
+    Fundamental trick in deep learning is to use this score as a feedback signal to  adjust the value of the
+    weights a little, in a direction that will lower the loss score for the current example.
+
+    This adjustment is the job of the optimizer, which implements what’s called the Backpropagation algorithm:
+    the central algorithm in deep learning.
+
+    A network with a minimal loss is one for which the outputs are as close as they can be to the targets:
+    a trained network.
+
+    Loss function is also known as objective function or cost function.
+
+    Two AI winters:
+        -> 1960s , 1970s promised human level intelligence but lead to disinterest and first AI winter
+        -> 1980s saw huge investment in symbolic AI and expert systems but due to expensive maintanence and limited
+           scope and difficulty in scaling, second AI winter began in 1990s
+-----------------------------------------------------------------------------------------------------------------------
+1.2 Before DL: History of ML
+
+
+
+
 
 '''
