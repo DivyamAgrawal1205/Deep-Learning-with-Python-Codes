@@ -62,13 +62,49 @@
 
     Two AI winters:
         -> 1960s , 1970s promised human level intelligence but lead to disinterest and first AI winter
-        -> 1980s saw huge investment in symbolic AI and expert systems but due to expensive maintanence and limited
+        -> 1980s saw huge investment in symbolic AI and expert systems but due to expensive maintenance and limited
            scope and difficulty in scaling, second AI winter began in 1990s
 -----------------------------------------------------------------------------------------------------------------------
 1.2 Before DL: History of ML
+-----------------------------------------------------------------------------------------------------------------------
 
+    Probabilistic modelling
+        -> earliest application of ML
+        -> Best known Algo is Naive Bayes
+            => ML classifier based on applying Bayes' Theorem while assuming that the features in the in the input data
+               are all independent(this is the 'naive' assumption)
+        -> Logistic regression is also another classifier , simple and versatile
 
+    In 1989(Bell Labs) Yann LeCun combined early CNNs and backpropagation to classify handwritten digits dubbed it LeNet
+    US Postal Service used it reading ZIP codes on mail envelopes.
 
+    Kernel methods made neural networks oblivion in 1990s , published in Bell Labs by Vladimir Vapnik and Corinna Cortes
+    Kernel trick was that to find good decision hyperplanes in the new representation space, you don’t have to
+    explicitly compute the coordinates of your points in the new space; you just need to compute the distance
+    between pairs of points in that space, which can be done efficiently using a kernel function. A kernel function is
+    a computationally tractable operation that maps any two points in your initial space to the distance between these
+    points in your target representation space, completely bypassing the explicit computation of the new
+    representation.
+    SVM gained fame as they solved simple classification problems and were mathematically understood but it didn't
+    provide good results for perceptual problems.
+
+    Decision trees came in 2000s and generally termed as kernel methods in 2010s. Random Forests were very popular in
+    2010s until gradient boosting machines took over in 2014.
+
+    In 2011 Dan Ciresan won image classification competitions with GPU trained deep neural networks acc. of 74%.
+    But in 2012, A team advised by Geoffrey Hinton achieved 83.6 % acc. in ImageNet Comp. and in 2015 96.4% acc. reached
+    CERN used decision tree based models for analysing particle data but switched to deep neural networks.
+
+    Deep learning, on the other hand, completely automates feature engineering: with deep learning, you learn all
+    features in one pass rather than having to engineer them yourself. This has greatly simplified machine learning
+    workflows, often replacing sophisticated multistage pipelines with a single, simple, end-to-end deep learning model.
+
+    These are the two essential characteristics of how deep learning learns from data: the incremental, layer-by-layer
+    way in which increasingly complex representations are developed and the fact that these intermediate incremental
+    representations are learned jointly, each layer being updated to follow both the representational needs of the layer
+    above and the needs of the layer below. Together, these two properties have made deep learning
+    vastly more successful than previous approaches to machine learning.
+-----------------------------------------------------------------------------------------------------------------------
 
 
 '''
