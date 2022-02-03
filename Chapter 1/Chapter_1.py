@@ -105,6 +105,43 @@
     above and the needs of the layer below. Together, these two properties have made deep learning
     vastly more successful than previous approaches to machine learning.
 -----------------------------------------------------------------------------------------------------------------------
+1.3 Why DL? Why now?
+-----------------------------------------------------------------------------------------------------------------------
 
+    CNNs and backpropagation were found in 1990 and LSTMs were understood in 1997 but DL took off only 2012s due to apt
+    hardware availabilities.
+
+    3 technical forces advancing ML
+        -> Hardware
+        -> Datasets and BenchMarks
+        -> Algorithmic advances
+
+    In 2007 NVIDIA launched CUDA, a programming interface for its GPUs. Matrix multiplications are highly parallelized
+    so highly applicable through GPUs. In 2011, Dan Ciresan were the first among researchers to write CUDA application
+    of neural nets.
+
+    NVIDIA Titan RTX peaked 16 TeraFLOPS(16 trillion float 32 ops per second) 500 times better than 1990 best supercomp.
+    Google's TPU(2020) can achieve 420 TeraFLOPS 10,000 times faster thn 1990 supercomp.
+    TPU comes in pods. 1 pod = 1024 TPUs which peaks 100petaFLOPS!
+
+
+    ImageNet dataset catalysed progress in Deep learning(1.4 million images hand annotated with 1000 image categories)
+    Wikipedia and YouTube videos key datasets for NLP and User generated image tags on Flickr.
+
+
+    In 2000s there was a issue that feedback signals used to fade away as layers increased.
+    This changed around 2009-2010 with the advent of simple but important improvements:
+        -> Better activation Functions
+        -> Better weight initialisation techniques
+        -> Better optimisation techniques
+
+    In 2014-16 batch normalization, residual connections, and depth wise separable convolutions, etc improved gradient
+    propagation.
+    Led to large scale model architectures, which features tens of layers and tens of millions of parameters
+    in both CV(ResNet, Inception, Xception) and NLP(BERT, GPT-3, XLNet)
+
+
+    Deep learning due to its Simplicity, Scalability, Versatility and Reusability is a revolution in the making.
+-----------------------------------------------------------------------------------------------------------------------
 
 '''
